@@ -1,0 +1,26 @@
+*{
+  margin:0px;
+  padding:0;
+}
+html{
+  height: 100%;
+}
+body{
+  background-color: #f6e1e1;
+  height: 740px;
+  width: 70%;
+  padding-top: 110px;
+  padding-left: 22%;
+}
+.container {
+  position: fixed;
+  height: 80%;
+  margin: 20px;
+  width: 70%;
+  background-color: #e7cddc;
+  transition: 0.3s;
+}
+.container:hover{
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+
+}
