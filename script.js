@@ -1,4 +1,5 @@
 //https://codingartistweb.com/2021/09/dictionary-app-html-css-and-javascript/
+document.addEventListener("DOMContentLoaded", function() {
 
 const url = "https://api.dictionaryapi.dev/api/v2/entries/en/";
 const result = document.getElementById("result");
@@ -35,3 +36,5 @@ btn.addEventListener("click",() => {
 function playSound() {
 sound.play();
 }
+    });
+
